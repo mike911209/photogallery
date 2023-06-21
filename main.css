@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    margin: 0 auto;
+    width: 33%;
+    /* margin-right: 2%; */
+    float: left;
+}
+
+.row img {
+    border-radius: 1rem;
+    display: block;
+    width: 97%;
+    margin: 3% auto;
+}
+
+#gallery::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+p {
+    font-size: 1.5rem;
+}
